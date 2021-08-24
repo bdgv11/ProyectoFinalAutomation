@@ -21,7 +21,7 @@ public class BaseClass extends PageObjectHandler{
 
     @Parameters({"browser"})
     @BeforeMethod
-    public void beforeMethod(@Optional("browser") String browser){
+    public void beforeMethod(@Optional("chrome") String browser){
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
 
@@ -36,7 +36,7 @@ public class BaseClass extends PageObjectHandler{
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void beforeMethod(){
         TakeScreenchot(driver);
         driver.close();
