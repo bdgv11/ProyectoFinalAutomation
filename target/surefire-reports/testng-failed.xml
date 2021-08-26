@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Account Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Product Page Tests - Chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.ProductTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="Test_Validate_Different_Prices" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- Tests.ProductTests -->
+    </classes>
+  </test> <!-- Product Page Tests - Chrome(failed) -->
+</suite> <!-- Failed suite [Account Tests] -->

@@ -1,0 +1,23 @@
+{
+  "dataSet": [
+    {
+      "searchCriteria" : "Apple Cinema 30",
+      "dollarPrice" : 90.00,
+      "poundSterling": 67.89,
+      "euroPrice": 77.47
+    },
+    {
+      "searchCriteria" : "MacBook",
+      "dollarPrice" : 500.00,
+      "poundSterling": 377.16,
+      "euroPrice": 430.37
+    },
+    {
+      "searchCriteria" : "iPhone",
+      "dollarPrice" : 101.00,
+      "poundSterling": 76.19,
+      "euroPrice": 86.93
+    }
+
+  ]
+}

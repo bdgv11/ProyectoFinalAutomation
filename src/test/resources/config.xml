@@ -14,4 +14,10 @@
             <class name="Tests.HomePageTests"/>
         </classes>
     </test>
+    <test name="Product Page Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Tests.ProductTests"/>
+        </classes>
+    </test>
 </suite>

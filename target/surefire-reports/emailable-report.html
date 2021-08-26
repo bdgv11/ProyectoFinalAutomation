@@ -9,14 +9,55 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Account Tests</th></tr>
-<tr><td><a href="#t0">Login Tests - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,218</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Home Page Tests - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,370</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">18,588</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Login Tests - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,344</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Home Page Tests - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,791</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Product Page Tests - Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">21,546</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">40,681</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Account Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.RegisterTests</td><td><a href="#m0">Test_Create_New_Account</a></td><td rowspan="1">1629946986048</td><td rowspan="1">2726</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Home Page Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.HomePageTests</td><td><a href="#m1">Test_Add_Cart</a></td><td rowspan="1">1629946992012</td><td rowspan="1">8185</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Account Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.RegisterTests</td><td><a href="#m0">Test_Create_New_Account</a></td><td rowspan="1">1630012666911</td><td rowspan="1">3054</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Home Page Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.HomePageTests</td><td><a href="#m1">Test_Add_Cart</a></td><td rowspan="1">1630012673139</td><td rowspan="1">8684</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Product Page Tests - Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Tests.ProductTests</td><td><a href="#m2">Test_Validate_Different_Prices</a></td><td rowspan="2">1630012699641</td><td rowspan="2">13</td></tr><tr class="failedeven"><td><a href="#m3">Test_Validate_Different_Prices</a></td></tr><tr><th colspan="4">Product Page Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.ProductTests</td><td><a href="#m4">Test_Validate_Different_Prices</a></td><td rowspan="1">1630012685051</td><td rowspan="1">11262</td></tr></tbody>
 </table>
 <h2>Login Tests - Chrome</h2><h3 id="m0">Tests.RegisterTests#Test_Create_New_Account</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>Home Page Tests - Chrome</h2><h3 id="m1">Tests.HomePageTests#Test_Add_Cart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Product Page Tests - Chrome</h2><h3 id="m2">Tests.ProductTests#Test_Validate_Different_Prices</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pojo.Products@26d7cb0d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Bryans-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at PageObjects.HeaderPage.clickOnMyAccount(HeaderPage.java:43)
+	at PageObjects.LoginPage.GoToLoginPage(LoginPage.java:27)
+	at Tests.ProductTests.Test_Validate_Different_Prices(ProductTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.ProductTests#Test_Validate_Different_Prices</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pojo.Products@670c171c</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Bryans-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at PageObjects.HeaderPage.clickOnMyAccount(HeaderPage.java:43)
+	at PageObjects.LoginPage.GoToLoginPage(LoginPage.java:27)
+	at Tests.ProductTests.Test_Validate_Different_Prices(ProductTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests.ProductTests#Test_Validate_Different_Prices</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pojo.Products@5bd3ca3c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

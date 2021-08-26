@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.362" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.55" tests="5" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/bryanguzman/git/Proyecto Automation Framework UCreativa/ProyectoFinalAutomation/target/surefire 2021-08-25T21-03-00_729-jvmRun1 surefire1510217331291079833tmp surefire_07320209751395638004tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/bryanguzman/git/Proyecto Automation Framework UCreativa/ProyectoFinalAutomation/target/surefire 2021-08-26T15-17-41_719-jvmRun1 surefire13338479916450206355tmp surefire_017429140298903623216tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/bryanguzman/git/Proyecto Automation Framework UCreativa/ProyectoFinalAutomation/target/test-classes:/Users/bryanguzman/git/Proyecto Automation Framework UCreativa/ProyectoFinalAutomation/target/classes:/Users/bryanguzman/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/bryanguzman/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bryanguzman/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bryanguzman/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bryanguzman/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bryanguzman/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bryanguzman/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bryanguzman/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bryanguzman/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bryanguzman/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bryanguzman/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bryanguzman/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bryanguzman/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bryanguzman/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/Users/bryanguzman/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/Users/bryanguzman/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/Users/bryanguzman/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/bryanguzman/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/bryanguzman/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/bryanguzman/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/bryanguzman/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/bryanguzman/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/bryanguzman/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bryanguzman/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/bryanguzman/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/bryanguzman/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/bryanguzman/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/bryanguzman/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/bryanguzman/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bryanguzman/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/bryanguzman/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/bryanguzman/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/bryanguzman/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/bryanguzman/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/bryanguzman/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
@@ -52,6 +52,41 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="Test_Create_New_Account" classname="Tests.RegisterTests" time="2.712"/>
-  <testcase name="Test_Add_Cart" classname="Tests.HomePageTests" time="8.189"/>
+  <testcase name="Test_Create_New_Account" classname="Tests.RegisterTests" time="3.055"/>
+  <testcase name="Test_Add_Cart" classname="Tests.HomePageTests" time="8.683"/>
+  <testcase name="Test_Validate_Different_Prices" classname="Tests.ProductTests" time="11.263"/>
+  <testcase name="Test_Validate_Different_Prices" classname="Tests.ProductTests" time="0.02">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Bryans-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bryans-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at Tests.ProductTests.Test_Validate_Different_Prices(ProductTests.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 30477
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago. 26, 2021 3:18:18 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
+Hover on element failed.
+]]></system-err>
+  </testcase>
+  <testcase name="Test_Validate_Different_Prices" classname="Tests.ProductTests" time="0.002">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Bryans-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bryans-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at Tests.ProductTests.Test_Validate_Different_Prices(ProductTests.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5482
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago. 26, 2021 3:18:21 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
+Hover on element failed.
+]]></system-err>
+  </testcase>
 </testsuite>

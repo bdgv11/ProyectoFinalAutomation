@@ -1,6 +1,7 @@
 package Tests;
 
 import PageObjects.*;
+import Pojo.Products;
 import org.openqa.selenium.WebDriver;
 
 public class PageObjectHandler {
@@ -52,9 +53,9 @@ public class PageObjectHandler {
             loginPage = new LoginPage(driver);
         return loginPage;
     }
-    public RegisterPage registerPage(){
-        if(this.registerPage == null)
-            registerPage = new RegisterPage(driver);
-        return registerPage;
+    public ProductPage productPage(){
+        if(this.productPage == null)
+            productPage = new ProductPage(driver);
+        return productPage;
     }
 }
