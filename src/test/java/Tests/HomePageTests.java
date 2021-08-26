@@ -31,6 +31,8 @@ public class HomePageTests extends BaseClass {
         String messageProductAdded = "Success: You have added MacBook to your shopping cart!";
         String errorMessageCheckOutButton = "Products marked with *** are not available in the desired quantity or not in stock!";
 
+        Assert.assertTrue(headerPage().verifyPageLoad());
+
         //Go to login
         loginPage().GoToLoginPage();
         loginPage().login(username,pass);

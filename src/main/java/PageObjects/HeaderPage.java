@@ -33,6 +33,11 @@ public class HeaderPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
+    public boolean verifyPageLoad(){
+        return waitForElementEnable(myAccountLinkLocator) && waitForElementEnable(shoppingCartLocator) &&
+                waitForElementEnable( StoreButtonLocator) && waitForElementEnable(topLinkCart);
+    }
+
     public void clickOnMyAccount(){
         hoverOnElement(myAccountLinkLocator);
         loginButtonLocator.click();
