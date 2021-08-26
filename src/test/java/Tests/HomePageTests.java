@@ -46,7 +46,7 @@ public class HomePageTests extends BaseClass {
         //Add to cart on search results page
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         searchResultsPage().addToCart();
-        //Assert.assertEquals(searchResultsPage().getMessageProductAdded(),messageProductAdded,"Product message differences");
+        Assert.assertTrue(searchResultsPage().getMessageProductAdded().contains(messageProductAdded),"Product message differences");
 
         //Go to shopping cart
         headerPage().clickOnTopLinkCartButton();

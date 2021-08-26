@@ -20,12 +20,6 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//*[@id='content']/div[3]/div[1]/div/div[2]/div[2]/button[1]/i")
     WebElement firstSearchCartButton;
 
-
-    //driver.findElement(By.name("search")).sendKeys("macbook");
-    //driver.findElement(By.xpath("//*[@id=\"search\"]/span/button")).click();
-    //driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[2]/button[1]/i")).click();
-    //driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[4]/a/span")).click();
-
     public HomePage(WebDriver driver){
         super(driver);
         PageFactory.initElements(driver, this);

@@ -6,8 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BasePage {
 
-    //public WebDriver driver;
-
     //Elementos
     private By emailInputLocator = By.name("email");
     private By passwordInputLocator = By.name("password");
@@ -16,16 +14,6 @@ public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver){
         super(driver);
         PageFactory.initElements(driver, this);
-    }
-
-    public void EnterEmail(String email){
-        this.driver.findElement(emailInputLocator).sendKeys(email);
-    }
-    public void EnterPassword(String password){
-        this.driver.findElement(passwordInputLocator).sendKeys(password);
-    }
-    public void ClickSubmitButton(){
-        this.driver.findElement(submitButtonSelector).click();
     }
 
     public void login(String username, String password){
