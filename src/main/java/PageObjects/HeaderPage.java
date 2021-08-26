@@ -2,33 +2,51 @@ package PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HeaderPage extends BasePage {
 
     //Elementos
-    private By myAccountLinkLocator = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[1]");
-    private By loginButtonLocator = By.linkText("Login");
-    private By registerButtonLocator = By.linkText("Register");
-    private By shoppingCartLocator = By.linkText("Shopping Cart");
-    private By youeStoreButtonLocator = By.linkText("Your Store");
+    @FindBy(xpath="//*[@id='top-links']/ul/li[2]/a")
+    WebElement myAccountLinkLocator;
 
-    public HeaderPage(WebDriver _driver){
-        super(_driver);
+    @FindBy(linkText = "Login")
+    WebElement loginButtonLocator;
+
+    @FindBy(linkText = "Register")
+    WebElement registerButtonLocator;
+
+    @FindBy(linkText = "Shopping Cart")
+    WebElement shoppingCartLocator;
+
+    @FindBy(linkText = "Your Store")
+    WebElement StoreButtonLocator;
+
+    @FindBy(xpath = "//*[@id='top-links']/ul/li[4]/a/span")
+    WebElement topLinkCart;
+
+    //Methods
+    public HeaderPage(WebDriver driver){
+        super(driver);
+        PageFactory.initElements(driver, this);
     }
 
     public void clickOnMyAccount(){
-        driver.findElement(myAccountLinkLocator).click();
+        hoverOnElement(myAccountLinkLocator);
+        loginButtonLocator.click();
     }
     public void clickOnLoginButton(){
-        driver.findElement(loginButtonLocator).click();
+        loginButtonLocator.click();
     }
     public void clickOnRegisterButton(){
-        driver.findElement(registerButtonLocator).click();
+        registerButtonLocator.click();
     }
-    public void clickOnCartButton(){
-        driver.findElement(shoppingCartLocator).click();
+    public void clickOnTopLinkCartButton(){
+        topLinkCart.click();
     }
     public void clickOnYourStoreButton(){
-        driver.findElement(youeStoreButtonLocator).click();
+        StoreButtonLocator.click();
     }
 }

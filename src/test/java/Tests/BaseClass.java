@@ -37,7 +37,7 @@ public class BaseClass extends PageObjectHandler{
     }
 
     @AfterMethod(alwaysRun = true)
-    public void beforeMethod(){
+    public void afterMethod(){
         TakeScreenchot(driver);
         driver.close();
         try {

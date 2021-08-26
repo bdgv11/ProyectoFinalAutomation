@@ -8,4 +8,10 @@
             <class name="Tests.RegisterTests"/>
         </classes>
     </test>
+    <test name="Home Page Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Tests.HomePageTests"/>
+        </classes>
+    </test>
 </suite>

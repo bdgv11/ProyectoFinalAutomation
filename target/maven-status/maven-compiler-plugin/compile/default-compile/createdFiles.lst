@@ -1,4 +1,8 @@
 PageObjects/RegisterPage.class
+PageObjects/LoginPage.class
+PageObjects/ProductPage.class
+PageObjects/ShoppingCartPage.class
+PageObjects/SearchResultsPage.class
 PageObjects/BasePage.class
 PageObjects/HeaderPage.class
 PageObjects/HomePage.class

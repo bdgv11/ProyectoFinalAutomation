@@ -61,7 +61,7 @@
                     </argLine>
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/AccountSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/config.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
